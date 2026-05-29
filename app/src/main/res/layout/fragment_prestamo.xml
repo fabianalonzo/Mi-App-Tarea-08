@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0984e3"
+        android:text="Realice una Suma"
+        android:textColor="#FFF"
+        android:textSize="51dp" />
+
+    <EditText
+        android:id="@+id/edtPrimerDato"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bg_input"
+        android:hint="Primer Dato"
+        android:padding="14dp" />
+
+    <EditText
+        android:id="@+id/edtSegundoDato"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/bg_input"
+        android:hint="Segundo Dato"
+        android:padding="14dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#0984e3"
+        android:gravity="center"
+        android:text="Realice una Suma"
+        android:textColor="#FFF"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edtPrimerDato"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:allowClickWhenDisabled="false"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bg_input"
+        android:hint="Resultado"
+        android:padding="14dp" />
+
+</LinearLayout>
