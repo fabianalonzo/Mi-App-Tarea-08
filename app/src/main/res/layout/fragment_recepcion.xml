@@ -3,8 +3,69 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <TextView
-        android:text="RECEPCIÓN"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0984e3"
+        android:text="Realice una Multiplicación"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/edtPrimerDato"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bg_input"
+        android:hint="Primer Dato"
+        android:inputType="numberDecimal"
+        android:padding="14dp" />
+
+    <EditText
+        android:id="@+id/edtSegundoDato"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/bg_input"
+        android:hint="Segundo Dato"
+        android:inputType="numberDecimal"
+        android:padding="14dp" />
+
+    <Button
+        android:id="@+id/btnMultiplicar"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/bg_button"
+        android:text="Multiplicar"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#0984e3"
+        android:gravity="center"
+        android:text="Resultado"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/edtResultado"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg_input"
+        android:enabled="false"
+        android:hint="Resultado"
+        android:padding="14dp" />
+
 </LinearLayout>
